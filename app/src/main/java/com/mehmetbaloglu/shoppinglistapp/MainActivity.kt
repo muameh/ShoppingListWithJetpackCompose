@@ -8,8 +8,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import com.mehmetbaloglu.shoppinglistapp.ui.theme.HomePage
 import com.mehmetbaloglu.shoppinglistapp.ui.theme.ShoppingListAppTheme
-import com.mehmetbaloglu.shoppinglistapp.ui.theme.mainScreen
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background
                 ) {
-                    mainScreen()
+                    HomePage()
                 }
             }
         }

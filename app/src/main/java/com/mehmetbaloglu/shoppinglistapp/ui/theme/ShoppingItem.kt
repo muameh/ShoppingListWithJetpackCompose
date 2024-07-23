@@ -1,5 +1,5 @@
 package com.mehmetbaloglu.shoppinglistapp.ui.theme
 
 data class ShoppingItem(
-    val id: Int, val name: String, val quantity: Int, val isEditing: Boolean = false
+    val id: Int, var name: String, var quantity: String, val isEditing: Boolean = false
 )
